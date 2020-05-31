@@ -263,15 +263,13 @@ button.btn-primary {
   width: 170px;
   height: 250px;
   right: -70%;
-  top: -120px;
+  top: -80px;
 }
 
 .menu-vertical {
-  float: left;
   width: 150px;
-  height: 800px;
+  min-height: 800px;
   margin-right: 10px;
-  margin-bottom: 30px;
   background-color: #687a61;
 }
 
@@ -313,4 +311,58 @@ th {
   background-color: #000;
   opacity: 0.8;
   padding-top: 0;
+}
+
+.main-container {
+  display: flex;
+}
+
+.form-wrapper {
+  margin-top: 100px;
+}
+
+.form-wrapper form .form-content {
+  width: 50%;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-wrapper input {
+  width: 45%;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+
+.employee-management {
+  width: 100%;
+}
+
+.employees {
+  margin-top: 15px;
+}
+
+.employee-card {
+  display: flex;
+  min-height: 125px;
+  margin-top: 10px;
+}
+
+.employee-photo {
+  background-image: url(../images/5.png);
+  background-size: cover;
+  width: 100px;
+}
+
+.employee-data {
+  margin-left: 5px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
 }
