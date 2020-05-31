@@ -138,9 +138,24 @@ i {
   margin-right: 50px;
 }
 
+.header-info .open-sans{
+  text-align: justify;
+  font-size: 13px;
+}
+
+.header-info .open-sans {
+  align-items: center;
+  font-size: 18px;
+}
+
 .header-info h1 span {
   color: #ec74af;
 }
+
+.header-info p span {
+  color: #ec74af;
+}
+
 
 .header-info p {
   margin-top: 40px;
@@ -152,8 +167,8 @@ i {
 }
 
 .nasa-info {
-  min-height: 600px;
-  margin-bottom: 30px;
+    min-height: 600px;
+    margin-bottom: 100px;
 }
 
 .nasa-info-content {
@@ -202,11 +217,12 @@ i {
 }
 
 button.btn-primary {
-  border: none;
-  background-color: #4d6cab;
-  color: #fff;
-  width: 150px;
-  height: 30px;
+    border: none;
+    background-color: #4d6cab;
+    color: #fff;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
 }
 
 .footer {
@@ -280,4 +296,15 @@ table {
 
 th {
   text-align: left;
+}
+
+
+.carrossel{
+  display: flex;
+}
+
+.carousel-caption{
+  background-color: #000;
+  opacity: 0.8;
+  padding-top: 0;
 }
