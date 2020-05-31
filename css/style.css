@@ -56,6 +56,7 @@ i {
   position: fixed;
   width: 100%;
   z-index: 1;
+  top: 0;
 }
 
 .menu ul {
@@ -203,4 +204,30 @@ button.btn-primary {
     color: #fff;
     width: 150px;
     height: 30px;
+}
+
+.footer {
+  height: 90px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  background-color: #4d6cab;
+  background-image: url(../images/silent_cosmic_PNG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80px;
+  margin-top: 30px;
+}
+
+.footer p {
+  padding: 10px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.separador {
+  height: 30px;
+  background-color: #ffdb99;
 }
