@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Office Around</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
         integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Montserrat&display=swap" rel="stylesheet">
@@ -18,15 +21,15 @@
     <div class="menu">
         <div>
             <ul>
-                <li><a href="./index.html" class="active">Home</a></li>
-                <li><a href="#" target="">NASA</a></li>
+                <li><a href="../index.html" class="active">Home</a></li>
+                <li><a href="../index.html" target="">NASA</a></li>
             </ul>
         </div>
         <div class="logo"><img src="../images/OFFICE_PNG.png" alt=""></div>
         <div>
             <ul>
-                <li><a href="#register" class="active">Cadastro</a></li>
-                <li><a href="#" target="">Login</a></li>
+                <li><a href="../index.html"active">Sign Up</a></li>
+                <li><a href="employee.html" target="">Login</a></li>
             </ul>
         </div>
     </div>
@@ -34,20 +37,102 @@
 </nav>
 
 
-<div class="container">
+<div class="container_">
     <div class="main">
-        <h2>Empresa XYZ</h2>
+        <h2>XYZ Company</h2>
         <div class="separador"></div>
+        <div class="main-container">
+            <nav class="menu-vertical">
+                <a href="calendar.html">Planning</a>
+                <a href="employee.html">Employee</a>
+            </nav>
+            <div class="employee-management">
+                <div class="PageTitle">
+                    <h1>Employee</h1>
+                </div>
+                <div class="form-wrapper">
+                    <form action="">
+                        <div class="form-content">
+                            <h3>New employee assignment</h3>
+                            <input type="text" placeholder="Name">
+                            <div class="input-wrapper">
+                                <input type="text" placeholder="Document">
+                                <input type="text" placeholder="Role">
+                            </div>
+                            <div class="button-container">
+                                <button type="submit" class="btn-primary">Add</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
 
-        <nav class="menu-vertical">
-            <a href="#">Planejamento</a>
-            <a href="#">Funcionários</a>
-        </nav>
+                <div class="employees">
+                    <div class="employee-card">
+                        <div class="employee-photo"></div>
+                        <div class="employee-data">
+                            <div class="employee-name">
+                                <p>John</p>
+                            </div>
+                            <div class="employee-role">
+                                <p>Software Engineer</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="employee-card">
+                        <div class="employee-photo"></div>
+                        <div class="employee-data">
+                            <div class="employee-name">
+                                <p>Elisa</p>
+                            </div>
+                            <div class="employee-role">
+                                <p>Software Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="employee-card">
+                        <div class="employee-photo"></div>
+                        <div class="employee-data">
+                            <div class="employee-name">
+                                <p>Samuel</p>
+                            </div>
+                            <div class="employee-role">
+                                <p>Tech Lead</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="employee-card">
+                        <div class="employee-photo"></div>
+                        <div class="employee-data">
+                            <div class="employee-name">
+                                <p>Alice</p>
+                            </div>
+                            <div class="employee-role">
+                                <p>BI Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="employee-card">
+                        <div class="employee-photo"></div>
+                        <div class="employee-data">
+                            <div class="employee-name">
+                                <p>Charlie</p>
+                            </div>
+                            <div class="employee-role">
+                                <p>Junior Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <footer class="footer">
-    <p>Todos os direitos reservados Silent Cosmic </p>
+    <p>All copyrights reserved to Silent Cosmic</p>
 </footer>
 
 </html>

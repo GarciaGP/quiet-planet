@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <title>Office Around</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
         integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
@@ -18,15 +23,15 @@
     <div class="menu">
         <div>
             <ul>
-                <li><a href="./index.html" class="active">Home</a></li>
-                <li><a href="#" target="">NASA</a></li>
+                <li><a href="../index.html" class="active">Home</a></li>
+                <li><a href="../index.html" target="">NASA</a></li>
             </ul>
         </div>
         <div class="logo"><img src="../images/OFFICE_PNG.png" alt=""></div>
         <div>
             <ul>
-                <li><a href="#register" class="active">Cadastro</a></li>
-                <li><a href="#" target="">Login</a></li>
+                <li><a href="../index.html"active">Sign Up</a></li>
+                <li><a href="employee.html" target="">Login</a></li>
             </ul>
         </div>
     </div>
@@ -34,47 +39,68 @@
 </nav>
 
 
-<div class="container">
+<div class="container_">
     <div class="main">
-        <h2>Empresa XYZ</h2>
+        <h2>XYZ Company</h2>
         <div class="separador"></div>
+        <div class="main-container">
 
-        <nav class="menu-vertical">
-            <a href="#">Planejamento</a>
-            <a href="#">Funcionários</a>
-        </nav>
-        <table style="width: 80%;" border="1">
-            <tbody>
-            <tr>
-            <td>Segunda</td>
-            <td>Terça</td>
-            <td>Quarta</td>
-            <td>Quinta</td>
-            <td>Sexta</td>
-            <td>Sábado</td>
-            </tr>
-            <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            </tr>
-            <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            </tr>
-            </tbody>
-            </table>
+            <nav class="menu-vertical">
+                <a href="./calendar.html">Planning</a>
+                <a href="./employee.html">Employee</a>
+            </nav>
+            <div>
+                <div class="pageTitle">
+                    <h1><b>Planning</b></h1><br>
+                </div>
+
+                <h3>This is your home-office schedule!</h3>
+                <table class="table table-sm">
+                    <tbody>
+                        <tr class="bg-primary">
+                            <td scope="col">#</td>
+                            <td scope="col"><b>Monday</b></td>
+                            <td scope="col"><b>Tuesday</b></td>
+                            <td scope="col"><b>Wednesday</b></td>
+                            <td scope="col"><b>Thursday</b></td>
+                            <td scope="col"><b>Friday</b></td>
+                            <td scope="col"><b>Saturday</b></td>
+                            <td scope="col"><b>#</b></td>
+                        </tr>
+                        <tr>
+                            <td scope="col"><b>This Week:</b></td>
+                            <td scope="col">Alice</td>
+                            <td scope="col">&nbsp;</td>
+                            <td scope="col">Elisa</td>
+                            <td scope="col">&nbsp;</td>
+                            <td scope="col">Charlie</td>
+                            <td scope="col">&nbsp;</td>
+                            <td scope="col">
+                                <button class="btn btn-warning">Edit</button>
+                                <button class="btn btn-info">Details</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="col"><b>Next Week:</b></td>
+                            <td scope="col">&nbsp;</td>
+                            <td scope="col">John</td>
+                            <td scope="col">&nbsp;</td>
+                            <td scope="col">Samuel</td>
+                            <td scope="col">&nbsp;</td>
+                            <td scope="col">&nbsp;</td>
+                            <td scope="col">
+                                <button class="btn btn-warning">Edit</button>
+                                <button class="btn btn-info">Details</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div>
 <footer class="footer">
-    <p>Todos os direitos reservados Silent Cosmic </p>
+    <p>All copyrights reserved to Silent Cosmic </p>
 </footer>
 
 </html>
